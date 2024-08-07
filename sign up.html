@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <title>sign up</title>
+        <style>
+            body{
+                font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+            }
+            .arrow-image{
+                display: inline-block;
+                margin: 40px 0px 0px 40px;
+                width: fit-content;
+            }
+            .account{
+                color: rgba(28, 40, 161, 1);
+            }
+            .input{
+                height: 35px;
+                width: 300px;
+                background-color:#F7F9FC;
+                border-radius: 8px;
+                border-width: 0.5px;
+                border-color: none;
+                color: rgba(99, 118, 185, 1);
+                margin-bottom: 20px;
+            }
+            .input:hover{
+                background-color: rgba(236, 241, 255, 1);
+            }
+            #terms{
+                width: 240px;
+                height: fit-content;
+                text-align: center;
+            }
+            .button {
+                height: 40px;
+                width: 207px;
+                background-color: rgba(28, 40, 161, 1);
+                border-radius: 30px;
+                border-color: rgba(28, 40, 161, 1);
+                color: white;
+                font-size: 13px;
+                cursor: pointer;
+            }
+            .sign-up > h1 {
+                padding-top: 9px;
+            }
+            .circle{
+                position: absolute;
+            }
+            .google{
+                position: relative;
+                margin: 10px 0px 0px 10px;
+            }
+            
+            h2 {
+                font-size: 13px;
+                font-weight: 100px;
+            }
+            #link {
+                color:rgba(28, 40, 161, 1);
+                text-decoration: none;
+            }
+            #first-section{
+                height: 380px;
+                width: 320px;
+                border: 1.5px solid black;
+                margin: auto;
+                margin-top: 50px;
+                padding: 25px;
+            }
+            .account{
+                text-align: center;
+                padding-bottom: 20px;
+            }
+            #second-section{
+                height: 240px;
+                width: 320px;
+                border: 1.5px solid black;
+                margin: auto;
+                margin-top: 5px;
+                padding: 25px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+        </style>
+
+    </head>
+
+    <body>
+        <div id="first-section"> 
+            <h1 class="account">Sign Up</h1>
+            <input class="input" placeholder="Full Name"></input>
+            <input class="input" placeholder="Password"> </input>
+            <input class="input" placeholder="Email"></input>
+            <input class="input" placeholder="Mobile Number"></input>
+            <input class="input" placeholder="01/01/01"></input>
+        </div>
+        <div id="second-section">
+            <div id="terms"><h2 class="terms">By continuing, you agree to Terms of Use and Privacy Policy.</h2></div>
+            <button class="button">Sign Up</button>
+            <h2 id="option">or Sign up with</h2>
+            <div id="google"> 
+                <img class="circle" src="./circle.png"/>
+                <img class="google" src="./google.png"/>
+            </div>
+            <h2 class="log-in">Don't have an account? <a id="link" href="./log in.html">Log In</a></h2>
+            </div>
+        </div>
+    </body>
+</html>

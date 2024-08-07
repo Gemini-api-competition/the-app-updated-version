@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>intoductory page</title>
+        <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+        <style>
+            body{
+                height: 150vh;
+                font-family: 'Open Sans', sans-serif;
+                font-weight: 400;
+                background-color: rgba(236, 241, 255, 1);
+            }
+            header {
+                background-color: rgba(28, 40, 161, 1);
+                color: rgba(236, 241, 255, 1);
+                padding: 20px;
+                text-align: center;
+            }
+            #image {
+                width: 230px;
+                height: 136px;
+                margin: 60px auto 40px;
+                background-color: white;
+                background-color: rgba(236, 241, 255, 1);
+            }
+            h1{
+                text-align: center;
+                margin-top: 50px;
+                font-size: 45px;
+                font-family: 'Montserrat', sans-serif;
+            }
+            header p{
+                Font-weight: 400;
+            }
+            #intro-text{
+                height: fit-content;
+                width: 800px;
+                margin: auto;
+            }
+            .intro-text{
+                text-align: center;
+                font-size: 20px;
+                font-weight: 300;
+            }
+            button{
+                height: 45px;
+                width: 207px;
+                font-size: 18px;
+                font-family: 'Montserrat', sans-serif;
+                font-weight: 500;
+                margin-right: 30px;
+                color: rgba(236, 241, 255, 1);
+                background-color: rgba(28, 40, 161, 1);
+                border-radius: 25px;
+                border-color: rgba(28, 40, 161, 1);
+                cursor: pointer;
+            }
+            #btn{
+                margin-top: 80px ;
+                display: flex;
+                justify-content: center;
+            }
+            /* Desktop */
+            @media (max-width: 1200px) {
+            /* styles for large desktop screens */
+            header {
+                padding: 15px;
+            }
+            #image {
+                width: 200px;
+                height: 120px;
+            }
+            }
+
+            /* Tablet */
+            @media (max-width: 768px) {
+                /* styles for tablet screens */
+                header {
+                    padding: 10px;
+                }
+                #image {
+                    width: 150px;
+                    height: 90px;
+                }
+                #intro-text {
+                    width: 600px;
+                }
+            }
+
+            /* Mobile */
+            @media (max-width: 480px) {
+                /* styles for large mobile screens */
+                header {
+                    padding: 5px;
+                }
+                #image {
+                    width: 100px;
+                    height: 60px;
+                }
+                #intro-text {
+                    width: 300px;
+                }
+                button {
+                    width: 150px;
+                    height: 30px;
+                }
+                }
+
+                @media (max-width: 375px) {
+                /* styles for medium mobile screens */
+                header {
+                    padding: 3px;
+                }
+                #image {
+                    width: 80px;
+                    height: 50px;
+                }
+                #intro-text {
+                    width: 250px;
+                }
+                button {
+                    width: 120px;
+                    height: 25px;
+                }
+            }
+
+            @media (max-width: 320px) {
+                /* styles for small mobile screens */
+                header {
+                    padding: 2px;
+                }
+                #image {
+                    width: 60px;
+                    height: 40px;
+                }
+                #intro-text {
+                    width: 200px;
+                }
+                button {
+                    width: 100px;
+                    height: 20px;
+                }
+            }
+
+        </style>
+    </head>
+
+    <body>
+        <header>
+            <h1>Welcome to health analysis revolutionized</h1>
+            <p>Monitor your body health and stay informed about prevalent diseases</p>
+        </header>
+        <div id="image">
+            <img src="./undraw_medicine_b-1-ol 1.png" alt="medic image" />
+        </div>
+        <div id="intro-text">
+            <p class="intro-text">
+                Are you curious about whether your body proportions are within healthy ranges?
+                Do you want to stay informed about prevalent diseases in your area or the destination
+                you're traveling to? (put gif here) You're in luck! Our comprehensive software is
+                designed to help individuals monitor their body health by analyzing various physical 
+                metrics such as BMI, waist circumference, and more. Additionally, it provides vital 
+                information on prevalent diseases and infections based on the location you input, 
+                enabling you to make informed decisions about your health and safety. Whether you're 
+                at home or on the go, our tool ensures you have the knowledge you need to maintain optimal 
+                health and stay aware of potential health risks in your surroundings.
+            </p>
+        </div>
+        <div id="btn">
+            <a href="./physical.html"><button>Physical Health </button></a>
+            <a href="./location track.html"><button>Locator</button></a> 
+        </div>
+    </body>
+</html>
